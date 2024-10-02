@@ -1,8 +1,37 @@
-h1 {
-  background: lightsalmon;
-  color: maroon;
+* {
+  font-size: 20px;
 }
 
-h2 {
-  color: lightsalmon;
+h1 {
+  background: darkblue;
+  color: lightblue;
+}
+
+div {
+  background: lightcoral;
+  ;
+}
+
+p {
+  color: darkblue;
+}
+
+li {
+  background: lightsteelblue;
+}
+
+#texto-boas-vindas {
+  background-color: lightcoral;
+}
+
+#explicacao-seletores {
+  background: lightsteelblue;
+}
+
+.seletores-mais-comuns {
+  color: red;
+}
+
+.texto-maiusculo {
+  text-transform: uppercase;
 }

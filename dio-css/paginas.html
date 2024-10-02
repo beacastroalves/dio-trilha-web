@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilha de CSS</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <style>
+    /* [atrib=value]*/
+    [title="Netflix"] {
+      color: red;
+    }
+
+    /* [atrib~=value] || [atrib|=value]*/
+    [title~="Streaming"] {
+      color: salmon;
+    }
+
+    [title~="Spotify"] {
+      color: green;
+    }
+
+    [title="Prime"] {
+      color: lightblue;
+    }
+
+     /* [atrib^=value] inicial do link || [atrib$=value] palavra final do link || [atrib*=value] palavra dentro do link*/
+     [href^="http://"] {
+      background: black;
+     }
+
+  </style>
+</head>
+<body>
+  <div>
+    <ul>
+      <li>
+        <a title="Netflix" href="http://www.netflix.com">
+          Netflix
+        </a>
+      </li>
+      <li>
+        <a title="Prime" href="http://www.primevideo.com">
+          Prime Vídeo
+        </a>
+      </li>
+      <li>
+        <a title="Spotify" href="https://www.spotify.com">
+          Spotify
+        </a>
+      </li>
+      <li>
+        <a  title="Streaming Disney">
+          Disney Plus
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
