@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combinadores Irmaos 2</title>
+  <style>
+    .fundo-verde span ~ p {
+      background: lightseagreen;
+    }
+
+    .fundo-verde p ~ p {
+      background: lightgreen;
+    }
+
+    .fundo-verde p + p {
+      background: lightslategray;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="fundo-verde">
+    <p>Elemento 01</p>
+    <p>Elemento 02</p>
+    <span>
+      <p>Elemento 03</p>
+      <p>Elemento 04</p>
+    </span>
+      <p>Elemento 05</p>
+      <p>Elemento 06</p>
+  </div>
+</body>
+</html>

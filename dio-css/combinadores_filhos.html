@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combinadores Filhos</title>
+  <style>
+
+    div p {
+      background: lightgoldenrodyellow;
+    }
+
+    div > p {
+      color: maroon;
+    }
+
+    .fundo-verde > p {
+      background-color: lightgreen;
+    }
+
+    .fundo-azul > p {
+      background-color: lightslategray;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="fundo-verde">
+    <p>Paragrafo 1 dentro da div</p>
+    <p>Paragrafo 2 dentro da div</p>
+    <span>
+      <p>Paragrafo 3 dentro da div, dentro do span</p>
+    </span>
+  </div>
+
+  <div class="fundo-verde">
+    <p>Paragrafo 4 dentro da div</p>
+    <p>Paragrafo 5 dentro da div</p>
+    <span>
+      <p>Paragrafo 6 dentro da div, dentro do span</p>
+    </span>
+  </div>
+
+  <div class="fundo-azul">
+    <p>Paragrafo 7 dentro da div</p>
+    <p>Paragrafo 8 dentro da div</p>
+    <span>
+      <p>Paragrafo 9 dentro da div, dentro do span</p>
+    </span>
+  </div>
+
+  <p>Paragrafo 10 fora da div</p>
+  <p>Paragrafo 11 fora da div</p>
+</body>
+</html>
