@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combinadores Irmaos 2</title>
+  <style>
+    /*
+      Propriedades Basicas do CSS
+      width: largura - min-width & max-width
+      height: altura - min-height & max-height
+    */
+    div {
+    width: 100px;
+    height: 100px;
+    }
+
+    .fundo-verde {
+      background: lightgreen;
+      height: inherit;
+    }
+
+    .fundo-amarelo {
+      background: lightgoldenrodyellow;
+      width: 300px;
+      height: 1000px;
+    }
+
+    .fundo-azul {
+      background: lightblue;
+      width: 200px;
+      height: 200px;
+      margin: 50px auto;
+    }
+
+    #min {
+      background: lightpink;
+      min-width: 800px;
+      min-height: 120px;
+    }
+
+    #max {
+      background: lightcoral;
+      min-width: 140px;
+      min-height: 400px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="fundo-verde">
+    <p>Elemento 01</p>
+    <p>Elemento 02</p>
+    <span>
+      <p id="max">Elemento 03</p>
+      <p>Elemento 04</p>
+    </span>
+      <p>Elemento 05</p>
+      <p>Elemento 06</p>
+  </div>
+  <div class="fundo-amarelo">
+    <p id="min">Elemento 07</p>
+    <p id="max">Elemento 08</p>
+    <span>
+      <p id="max">Elemento 09</p>
+      <p>Elemento 10</p>
+    </span>
+      <p class="fundo-azul">Elemento 11</p>
+      <p>Elemento 12</p>
+  </div>
+</body>
+</html>
