@@ -75,3 +75,30 @@ footer {
 .icon img {
   width: 24px;
 }
+
+@media screen and (max-width: 690px) {
+  .card {
+    color: #9a9a9a;
+    background-color: #4a4a4a;
+  }
+
+  .details {
+    flex-direction: column;
+  }
+
+  .image-card {
+    flex-basis: 150px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  header {
+    background-color: #7a7a7a;
+  }
+}
+
+@media screen and (pointer: fine) {
+  header {
+    color:#ffffff;
+  }
+}
