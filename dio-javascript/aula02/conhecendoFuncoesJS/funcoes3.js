@@ -37,7 +37,10 @@ function precoAPagar(precoEtiqueta, codigo) {
   console.log(`A forma de pagamento será ${condicao} e o valor total a pagar será de ${valorAPagar} reais`);
 }
 
-precoAPagar(500, 1);
-precoAPagar(100, 2);
-precoAPagar(200, 3);
-precoAPagar(300, 4);
+// precoAPagar(500, 1);
+// precoAPagar(100, 2);
+// precoAPagar(200, 3);
+// precoAPagar(300, 4);
+
+
+function incrementarJuros(valor, percentualDeJuros) { const incremento = (percentualDeJuros / 100) * valor; return valor + incremento; }
