@@ -42,13 +42,13 @@
 }
 
 .pokemon .detail .types .type {
-  background-color: #fff;
-  color: #000;
-  opacity: 0.2;
+  background-color: #ffffff30;
+  color: #fff;
   padding: 0.2rem 0.5rem;
   margin: 0.2rem 0;
   font-size: 0.625rem;
   border-radius: 8px;
+
 }
 
 .pokemon .detail img {
