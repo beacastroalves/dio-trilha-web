@@ -131,6 +131,25 @@
     justify-self: flex-end;
 }
 
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0;
+  font-size: 0.625rem;
+  background-color: #6c79db;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
 
 @media screen and (min-width: 380px) {
   .pokemons {
