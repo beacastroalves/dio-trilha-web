@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <style>
+    body {
+      font-size: 1.125rem;
+    }
+
+    header {
+      padding-bottom: 1rem;
+      h3 {
+        padding-bottom: 0.5rem;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding: 0 1rem 1rem 1rem;
+      list-style: none;
+    }
+
+    h3 {
+      margin-bottom: 0;
+      font-style: normal;
+    }
+
+    small {
+      & a {
+      color: grey;
+      }
+    }
+
+    .itens {
+      padding: 0 1rem;
+    }
+
+    .item {
+      padding: 0 0.5rem 0.5rem 0.5rem;
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="inicio">Trilha de HTML na <a href="https://www.dio.me/" target="_blank">Dio.me</a></h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+      <li>
+        <h3><a href="#modulo1" title="Clique e acesse o módulo 1">Módulo I - Entendendo a comunicação Client x Server</a></h3>
+        <ol>
+          <li><a href="#historia-web">História da Web</a></li>
+          <li><a href="#clients" title="Clique e acesse sobre Clients">O que são Clients</a></li>
+          <li><a href="#servers" title="Clique e acesse sobre Servers">O que são Servers</a></li>
+          <li><a href="#linguagens-programação" title="Clique e acesse sobre as Linguagens de Programação">Linguagens de Programação</a></li>
+        </ol>
+      </li>
+      <li>
+        <h3><a href="#modulo2" title="Clique e acesse o módulo 2">Módulo II - Introdução ao HTML na Prática</a></h3>
+        <ol>
+          <li><a href="#fundamentos" title="Clique e acesse sobre Fundamentos e ferramentas utilizadas">Fundamentos e ferramentas utilizadas</a></li>
+          <li><a href="#inspetor-elementos" title="Clique e acesse sobre o inspetor de Elementos">O que é o inspetor de Elementos</a></li>
+          <li><a href="#estrutura-html" title="Clique e acesse sobre a estrutura básica do HTML">Qual a estrutura básica do HTML</a></li>
+          <li><a href="#tags-atributos" title="Clique e acesse sobre Tags e seus atributos">Sobre Tags e seus atributos</a></li>
+          <li><a href="#alguns-atributos" title="Clique e acesse sobre alguns atributos">Textos, Listas e Links</a></li>
+        </ol>
+      </li>
+    </ul>
+    <hr>
+  </header>
+  <main>
+    <section class="itens">
+      <h2 id="modulo1">Módulo I - Entendendo a comunicação Client x Server</h2>
+      <section class="item">
+        <h3 id="historia-web">História da Web</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>A World Wide Web (WWW), mais conhecida como Web, é um sistema de hipertexto que permite a usuários acessarem e compartilharem informações através da internet. A Web foi criada em 1989 por Tim Berners-Lee, um físico inglês que trabalhava no CERN, um laboratório de física de partículas na Suíça.</p>
+        <p>Berners-Lee desenvolveu a Web como uma maneira de compartilhar informações entre os pesquisadores do CERN. Ele criou o HTML (HyperText Markup Language), uma linguagem de marcação que permite a criação de páginas da Web que podem conter links para outras páginas. Ele também criou o HTTP (HyperText Transfer Protocol), um protocolo de comunicação que permite a transferência de páginas da Web entre computadores.</p>
+        <p> A World Wide Web foi lançada ao público em 1991 e rapidamente se tornou popular. Em 1994, o número de sites na Web já ultrapassava 10.000. Hoje, a Web é uma parte essencial da vida cotidiana de bilhões de pessoas em todo o mundo.</p>
+        <blockquote>"A World Wide Web não é apenas uma tecnologia, é uma maneira de viver." - Tim Berners-Lee</blockquote>
+      </section>
+      <section class="item">
+        <h3 id="clients">O que são Clients</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>Um cliente é um programa de computador que se comunica com um servidor para solicitar um serviço. Por exemplo, quando você acessa um site na internet, seu navegador é o cliente que se comunica com o servidor do site para solicitar a página.</p>
+        <p>Os clientes podem ser instalados em computadores, smartphones, tablets e outros dispositivos. Eles podem ser usados para acessar uma variedade de serviços, como e-mail, redes sociais, bancos, compras online e muito mais.</p>
+      </section>
+      <section class="item">
+        <h3 id="servers">O que são Servers</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>Um servidor é um computador que fornece um serviço para outros computadores. Por exemplo, um servidor web pode fornecer páginas da Web para clientes que acessam um site.</p>
+        <p>Os servidores podem ser instalados em computadores, servidores dedicados ou na nuvem. Eles podem ser usados para fornecer uma variedade de serviços, como e-mail, redes sociais, bancos, compras online e muito mais.</p>
+      </section>
+      <section class="item">
+        <h3 id="linguagens-programação">Linguagens de Programação</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>Uma linguagem de programação é uma linguagem usada para escrever programas de computador. Existem muitas linguagens de programação diferentes, cada uma com suas próprias vantagens e desvantagens.</p>
+        <p>Algumas das linguagens de programação mais populares usadas para desenvolver sites incluem JavaScript, Java, PHP, Python e Ruby.</p>
+      </section>
+    </section>
+
+    <section class="itens">
+      <h2 id="modulo2">Módulo II - Introdução ao HTML na Prática</h2>
+      <section class="item">
+        <h3 id="fundamentos">Fundamentos e ferramentas utilizadas</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>O HTML (HyperText Markup Language) é uma linguagem de marcação usada para criar páginas da Web. O HTML é usado para definir a estrutura e o conteúdo de uma página da Web.</p>
+      </section>
+      <section class="item">
+        <h3 id="inspetor-elementos">O que é o inspetor de Elementos</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>O inspetor de Elementos é uma ferramenta que permite inspecionar o código HTML de uma página da Web. Ele pode ser usado para ver como os elementos da página são estilizados e para fazer alterações no código HTML.</p>
+        <p>Ele está disponível na maioria dos navegadores da Web e para acessá-lo, você pode pressionar F12 no teclado ou clicar com o botão direito do mouse em um elemento da página e selecionar "Inspecionar".</p>
+      </section>
+      <section class="item">
+        <h3 id="estrutura-html">Qual a estrutura básica do HTML</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>A estrutura básica do HTML é a seguinte:</p>
+        <p>
+          &lt;!DOCTYPE html&gt;<br>
+          &lt;html&gt;<br>
+          &lt;head&gt;<br>
+          &nbsp; &nbsp; &nbsp; &lt;title&gt;<strong>Título da página</strong>&lt;/title&gt;<br>
+          &lt;/head&gt;<br>
+          &lt;body&gt;<br>
+          &nbsp; &nbsp; &nbsp; <strong>Conteúdo da página</strong><br>
+          &lt;/body&gt;<br>
+          &lt;/html&gt;<br>
+        </p>
+        <ul>
+          <li>O elemento <strong>&lt;!DOCTYPE html&gt;</strong> declara que o documento é um documento HTML.</li>
+          <li>O elemento <strong>&lt;html&gt;</strong> é o elemento raiz do documento.</li>
+          <li>O elemento <strong>&lt;head&gt;</strong> contém informações sobre a página, como o título e os metadados.</li>
+          <li>O elemento <strong>&lt;title&gt;</strong> define o título da página.</li>
+          <li>O elemento <strong>&lt;body&gt;</strong> contém o conteúdo da página.</li>
+        </ul>
+      </section>
+      <section class="item">
+        <h3 id="tags-atributos">Sobre Tags e seus atributos</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>As tags são usadas para marcar o conteúdo de uma página da Web. Cada tag tem um nome e pode ter atributos.</p>
+        <p>Os atributos são usados para fornecer informações adicionais sobre a tag. Por exemplo, o atributo <strong>"href"</strong> da tag <strong>&lt;a&gt;</strong> é usado para especificar o URL do link ou navegação na mesma página com o scroll automático para aquele item ou seção.</p>
+      </section>
+      <section class="item">
+        <h3 id="alguns-atributos">Textos, Listas e Links</h3>
+        <small><a href="#inicio">Voltar para o início</a></small>
+        <p>O HTML fornece várias tags para formatar texto, criar listas e criar links.</p>
+        <ul>
+          <li>
+            Textos: As tags <strong>&lt;h1&gt;</strong>, <strong>&lt;h2&gt;</strong>, <strong>&lt;h3&gt;</strong>, <strong>&lt;h4&gt;</strong>, <strong>&lt;h5&gt;</strong> e <strong>&lt;h6&gt;</strong> são usadas para criar cabeçalhos. As tags <strong>&lt;p&gt;</strong> são usadas para criar parágrafos e <strong>&lt;br&gt;</strong> para quebras de linha.
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
